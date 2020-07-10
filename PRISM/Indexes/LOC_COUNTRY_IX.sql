@@ -1,0 +1,1 @@
+CREATE INDEX prism.loc_country_ix ON prism.locations(country_id);

@@ -1,0 +1,1 @@
+CREATE INDEX prism.loc_state_prov_ix ON prism.locations(state_province);

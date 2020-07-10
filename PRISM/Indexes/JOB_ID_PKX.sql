@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX prism.job_id_pkx ON prism.jobs(job_id);

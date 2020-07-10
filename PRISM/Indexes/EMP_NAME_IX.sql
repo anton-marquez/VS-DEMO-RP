@@ -1,0 +1,1 @@
+CREATE INDEX prism.emp_name_ix ON prism.employees(last_name,first_name);

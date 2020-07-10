@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX prism.reg_id_pkx ON prism.regions(region_id);

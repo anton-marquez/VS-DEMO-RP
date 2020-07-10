@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX prism.loc_id_pkx ON prism.locations(location_id);

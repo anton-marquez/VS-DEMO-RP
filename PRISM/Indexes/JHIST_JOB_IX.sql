@@ -1,0 +1,1 @@
+CREATE INDEX prism.jhist_job_ix ON prism.job_history(job_id);

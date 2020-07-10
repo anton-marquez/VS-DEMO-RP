@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX prism.emp_emp_id_pkx ON prism.employees(employee_id);

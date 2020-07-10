@@ -1,0 +1,1 @@
+CREATE INDEX prism.loc_city_ix ON prism.locations(city);

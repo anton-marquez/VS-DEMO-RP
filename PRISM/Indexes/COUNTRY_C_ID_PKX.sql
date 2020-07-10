@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX prism.country_c_id_pkx ON prism.countries(country_id);

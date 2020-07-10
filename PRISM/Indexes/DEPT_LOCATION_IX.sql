@@ -1,0 +1,1 @@
+CREATE INDEX prism.dept_location_ix ON prism.departments(location_id);
