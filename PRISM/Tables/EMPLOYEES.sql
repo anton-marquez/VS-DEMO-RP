@@ -10,6 +10,7 @@ CREATE TABLE prism.employees (
   commission_pct NUMBER(2,2),
   manager_id NUMBER(6),
   department_id NUMBER(4),
+  remarks VARCHAR2(25 BYTE),
   CONSTRAINT emp_emp_id_pk PRIMARY KEY (employee_id) USING INDEX prism.emp_emp_id_pkx,
   CONSTRAINT emp_email_uk UNIQUE (email),
   CONSTRAINT emp_dept_fk FOREIGN KEY (department_id) REFERENCES prism.departments (department_id),
@@ -33,3 +34,4 @@ departments table. Foreign key to employee_id column of employees table.
 (useful for reflexive joins and CONNECT BY query)';
 COMMENT ON COLUMN prism.employees.department_id IS 'Department id where employee works; foreign key to department_id
 column of the departments table';
+COMMENT ON COLUMN prism.employees.remarks IS 'Test column';
