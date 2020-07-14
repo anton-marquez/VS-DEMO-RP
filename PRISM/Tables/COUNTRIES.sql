@@ -2,6 +2,7 @@ CREATE TABLE prism.countries (
   country_id CHAR(2 BYTE) NOT NULL,
   country_name VARCHAR2(40 BYTE),
   region_id NUMBER,
+  remarks   VARCHAR2(25 BYTE),
   CONSTRAINT country_c_id_pk PRIMARY KEY (country_id) USING INDEX prism.country_c_id_pkx,
   CONSTRAINT countr_reg_fk FOREIGN KEY (region_id) REFERENCES prism.regions (region_id)
 );
